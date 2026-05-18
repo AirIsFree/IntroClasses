@@ -22,7 +22,6 @@ public class Map
             }
         }
     }
-
     public void Display()
     {
         Console.SetCursorPosition(0, 0);
@@ -34,5 +33,9 @@ public class Map
             }
             Console.WriteLine();
         }
+    }
+    public Cell GetCell(int x, int y)
+    {
+        return _cells[y][x];
     }
 }
