@@ -5,6 +5,7 @@ public class Program
     public static void Main()
     {
         Console.Clear();
+        Console.CursorVisible = false;
         
         Dictionary<ConsoleKey, Vector2> directions = new Dictionary<ConsoleKey, Vector2>();
         directions[ConsoleKey.A] = new Vector2(-1, 0);
